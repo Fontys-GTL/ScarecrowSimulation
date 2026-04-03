@@ -1,0 +1,412 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <world name='agriculture_field'>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://mud_ground</uri>
+      <name>mud_box_top_left</name>
+      <pose>-8 4 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://mud_ground</uri>
+      <name>mud_box_top_center</name>
+      <pose>0 4 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://mud_ground</uri>
+      <name>mud_box_top_right</name>
+      <pose>8 4 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://mud_ground</uri>
+      <name>mud_box_bottom_left</name>
+      <pose>-8 -4 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://mud_ground</uri>
+      <name>mud_box_bottom_center</name>
+      <pose>0 -4 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://mud_ground</uri>
+      <name>mud_box_bottom_right</name>
+      <pose>8 -4 0 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_0_0</name>
+      <pose>-2.0 -4.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_0_1</name>
+      <pose>-1.0 -4.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_0_2</name>
+      <pose>0.0 -4.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_0_3</name>
+      <pose>1.0 -4.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_0_4</name>
+      <pose>2.0 -4.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_1_0</name>
+      <pose>-2.0 -3.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_1_1</name>
+      <pose>-1.0 -3.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_1_2</name>
+      <pose>0.0 -3.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_1_3</name>
+      <pose>1.0 -3.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_1_4</name>
+      <pose>2.0 -3.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_2_0</name>
+      <pose>-2.0 -2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_2_1</name>
+      <pose>-1.0 -2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_2_2</name>
+      <pose>0.0 -2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_2_3</name>
+      <pose>1.0 -2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_2_4</name>
+      <pose>2.0 -2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_3_0</name>
+      <pose>-2.0 -1.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_3_1</name>
+      <pose>-1.0 -1.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_3_2</name>
+      <pose>0.0 -1.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_3_3</name>
+      <pose>1.0 -1.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_3_4</name>
+      <pose>2.0 -1.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_4_0</name>
+      <pose>-2.0 -0.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_4_1</name>
+      <pose>-1.0 -0.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_4_2</name>
+      <pose>0.0 -0.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_4_3</name>
+      <pose>1.0 -0.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_4_4</name>
+      <pose>2.0 -0.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_5_0</name>
+      <pose>-2.0 0.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_5_1</name>
+      <pose>-1.0 0.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_5_2</name>
+      <pose>0.0 0.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_5_3</name>
+      <pose>1.0 0.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_5_4</name>
+      <pose>2.0 0.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_6_0</name>
+      <pose>-2.0 1.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_6_1</name>
+      <pose>-1.0 1.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_6_2</name>
+      <pose>0.0 1.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_6_3</name>
+      <pose>1.0 1.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_6_4</name>
+      <pose>2.0 1.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_7_0</name>
+      <pose>-2.0 2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_7_1</name>
+      <pose>-1.0 2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_7_2</name>
+      <pose>0.0 2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_7_3</name>
+      <pose>1.0 2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_7_4</name>
+      <pose>2.0 2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_8_0</name>
+      <pose>-2.0 3.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_8_1</name>
+      <pose>-1.0 3.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_8_2</name>
+      <pose>0.0 3.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_8_3</name>
+      <pose>1.0 3.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_8_4</name>
+      <pose>2.0 3.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_9_0</name>
+      <pose>-2.0 4.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_9_1</name>
+      <pose>-1.0 4.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_9_2</name>
+      <pose>0.0 4.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://big_plant</uri>
+      <name>big_plant_9_3</name>
+      <pose>1.0 4.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://small_plant</uri>
+      <name>small_plant_9_4</name>
+      <pose>2.0 4.5 0 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://Tree_1</uri>
+      <name>oak_tree_0</name>
+      <pose>-4 3 0.1 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://Tree_1</uri>
+      <name>pine_tree_1</name>
+      <pose>4 3 0.1 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://Tree_2</uri>
+      <name>oak_tree_2</name>
+      <pose>-5 -3 0.1 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://Tree_2</uri>
+      <name>pine_tree_3</name>
+      <pose>5 -3 0.1 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://Pine tree</uri>
+      <name>oak_tree_4</name>
+      <pose>-6 0 0.1 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://Oak tree</uri>
+      <name>tree_5</name>
+      <pose>6.5 0 0.1 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://crazyflie</uri>
+      <name>crazyflie</name>
+      <pose>-9.34101 11.353 1.26191 0 -0 0</pose>
+    </include>
+
+    <model name='cylinder'>
+      <pose>-9.24303 11.3942 0.574406 0 -0 0</pose>
+      <link name='cylinder_link'>
+        <inertial>
+          <inertia>
+            <ixx>0.14580000000000001</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.14580000000000001</iyy>
+            <iyz>0</iyz>
+            <izz>0.125</izz>
+          </inertia>
+          <mass>1</mass>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='cylinder_collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.5</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+          <surface>
+            <friction>
+              <ode/>
+            </friction>
+            <bounce/>
+            <contact/>
+          </surface>
+        </collision>
+        <visual name='cylinder_visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.5</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.7 0.7 0.7 1</diffuse>
+            <specular>1 1 1 1</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 0 -0 0</pose>
+        <enable_wind>false</enable_wind>
+      </link>
+      <static>false</static>
+      <self_collide>false</self_collide>
+    </model>
+
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    <plugin
+      filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin
+      filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin
+      filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+    <plugin
+      filename="gz-sim-sensors-system"
+      name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+
+    <gravity>0 0 -9.8</gravity>
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.9 1.0 1</background>
+    </scene>
+  </world>
+</sdf>
