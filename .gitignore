@@ -1,0 +1,77 @@
+# -----------------------------
+# ROS 2 / colcon workspaces
+# -----------------------------
+# Specific workspaces in this repo
+ws_offboard_control/build/
+ws_offboard_control/install/
+ws_offboard_control/log/
+ws_sensor_combined/build/
+ws_sensor_combined/install/
+ws_sensor_combined/log/
+
+# Any ROS2-like workspace folders (optional future workspaces)
+ws_*/build/
+ws_*/install/
+ws_*/log/
+
+# Colcon metadata
+.colcon/
+.colcon_cache/
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# -----------------------------
+# Build / CMake / binaries
+# -----------------------------
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+Makefile
+compile_commands.json
+*.o
+*.obj
+*.a
+*.la
+*.lo
+*.dll
+*.dylib
+*.exe
+
+# -----------------------------
+# Logs and runtime files
+# -----------------------------
+*.log
+logs/
+*.pid
+*.tmp
+*.swp
+*.swo
+
+# -----------------------------
+# Editors / OS
+# -----------------------------
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
