@@ -38,6 +38,7 @@ htmlcov/
 venv/
 env/
 ENV/
+px4-venv/
 
 # -----------------------------
 # Build / CMake / binaries
