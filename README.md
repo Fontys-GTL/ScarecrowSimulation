@@ -34,11 +34,13 @@ For now, we'll assume that you have installed PX4 and MAVROS properly. If you ha
 
 To run the simulation in its entirety, you have to open multiple terminals. Start each terminal from the root of the repository and execute the following commands in each terminal:
 Terminal 1:
+
 ```
 cd ~/Micro-XRCE-DDS-Agent
 MicroXRCEAgent udp4 -p 8888
 ```
 Terminal 2:
+
 You will need to export the path to the resources used in the simulation. This will change based on where you have stored the repository. For example, if you have stored the repository in /home/gtl/Development/ScarecrowSimulation, you will need to export the following paths:
 ```
 export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/home/gtl/Development/ScarecrowSimulation/PX4-ROS2-Gazebo-YOLOv8/models:/home/gtl/Development/ScarecrowSimulation/gazebo_terrain_generator/output/gazebo_terrain
@@ -52,6 +54,7 @@ PX4_SYS_AUTOSTART=4002 PX4_GZ_MODEL_POSE="0.0, 0.0,0.2,0.00,0,-0.7" PX4_GZ_WORLD
 This will launch the PX4 stack and Gazebo with a sample generated terrain. It loads up the x500_depth_model, this can be changed by specifying a different drone. You can also specify a different world: this world has to be in the PX4-Autopilot/Tools/simulation/gz/worlds folder. 
 
 Terminal 3:
+
 In the third terminal, navigate to the ws_offboard_control folder and run the following command to start the offboard control node:
 ```
 cd ws_offboard_control
