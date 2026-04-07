@@ -109,8 +109,3 @@ src/systemcmds/topic_listener/listener_generated.cpp
 # colcon
 log/
 keys/
-
-# PX4 toolchains and downloads
-PX4-Autopilot/Tools/setup/
-PX4-Autopilot/build/
-*.tar.xz
