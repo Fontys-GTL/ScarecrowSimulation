@@ -62,3 +62,14 @@ source install/setup.bash
 ros2 run px4_ros_com offboard_control.py
 ```
 This will start the offboard control node, which will arm the drone and send precoded waypoints to the drone. You should see the drone take off and fly to the specified waypoints in the Gazebo simulation. You can modify the waypoints in the offboard_control.py file to change the flight path of the drone.
+
+# Media
+
+Below are a screenshot of the terrain generator and a short video of the drone simulation.
+
+![Terrain generator screenshot](media/terrain_generator.png)
+
+<video controls width="720">
+	<source src="media/drone_simulation.webm" type="video/webm">
+	Your browser does not support the video tag.
+</video>
