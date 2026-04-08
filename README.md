@@ -69,7 +69,4 @@ Below are a screenshot of the terrain generator and a short video of the drone s
 
 ![Terrain generator screenshot](media/terrain_generator.png)
 
-<video controls width="720">
-	<source src="media/drone_simulation.webm" type="video/webm">
-	Your browser does not support the video tag.
-</video>
+[Play drone simulation video](media/drone_simulation.webm)
