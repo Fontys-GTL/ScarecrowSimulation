@@ -68,5 +68,5 @@ This will start the offboard control node, which will arm the drone and send pre
 Below are a screenshot of the terrain generator and a short video of the drone simulation.
 
 ![Terrain generator screenshot](media/terrain_generator.png)
-
-[Play drone simulation video](media/drone_simulation.webm)
+ 
+![Drone simulation GIF](media/drone_simulation.gif)
